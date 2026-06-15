@@ -1,0 +1,639 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0434\u0438\u043F\u043B\u043E\u043C\\\u0432 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0434\u0438\u043F\u043B\u043E\u043C\\sadovdiploma\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\analystwindows\\analystwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\analystwindows\\analystwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\analystwindows\\analystwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\analystwindows\\analystwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\cashierwindows\\listproductswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\cashierwindows\\listproductswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\cashierwindows\\cashieraddapplicationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\cashierwindows\\cashieraddapplicationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\cashierwindows\\cashieraddapplicationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\cashierwindows\\cashieraddapplicationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\windowsforallusers\\authorizationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\windowsforallusers\\authorizationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\windowsforallusers\\authorizationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\windowsforallusers\\authorizationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\windowsforallusers\\informationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\windowsforallusers\\informationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\windowsforallusers\\informationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\windowsforallusers\\informationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\windowsforallusers\\fullscreenimageproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\windowsforallusers\\fullscreenimageproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\windowsforallusers\\fullscreenimageproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\windowsforallusers\\fullscreenimageproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\departmentwindows\\departmenteditrequestmarkingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\departmentwindows\\departmenteditrequestmarkingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\cashierwindows\\cashierwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\cashierwindows\\cashierwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\departmentwindows\\departmentwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\departmentwindows\\departmentwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\departmentwindows\\departmentwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\departmentwindows\\departmentwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\departmentwindows\\printmarkingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\departmentwindows\\printmarkingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\cashierwindows\\listproductswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\cashierwindows\\listproductswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\departmentwindows\\departmenteditrequestmarkingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\departmentwindows\\departmenteditrequestmarkingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\storekeeperwindows\\storekeepereditrequestwriteoffwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\storekeeperwindows\\storekeepereditrequestwriteoffwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\cashierwindows\\cashierwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\cashierwindows\\cashierwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\storekeeperwindows\\storekeeperwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\storekeeperwindows\\storekeeperwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\storekeeperwindows\\storekeeperwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\storekeeperwindows\\storekeeperwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\entities\\requestswriteoff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:entities\\requestswriteoff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\departmentwindows\\printmarkingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\departmentwindows\\printmarkingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\departmentwindows\\selectquantityforprintwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\departmentwindows\\selectquantityforprintwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\storekeeperwindows\\storekeepereditrequestwriteoffwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\storekeeperwindows\\storekeepereditrequestwriteoffwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\windows\\departmentwindows\\selectquantityforprintwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:windows\\departmentwindows\\selectquantityforprintwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sadov\\Downloads\\Telegram Desktop\\code (109).c||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sadov\\Downloads\\Telegram Desktop\\code (110).c||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\entities\\requestsmarking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:entities\\requestsmarking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\entities\\remaindproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:entities\\remaindproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sadov\\Downloads\\Telegram Desktop\\code (107).c||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\entities\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:entities\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\entities\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{119B39EA-48EF-49A1-BC04-4A098CF4E8B3}|SadovDiploma.csproj|solutionrelative:entities\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sadov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\InformationWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sadov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\InformationWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sadov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\AuthorizationWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sadov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\AuthorizationWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T16:00:12.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AnalystWindow.xaml",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\AnalystWindows\\AnalystWindow.xaml",
+              "RelativeDocumentMoniker": "Windows\\AnalystWindows\\AnalystWindow.xaml",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\AnalystWindows\\AnalystWindow.xaml",
+              "RelativeToolTip": "Windows\\AnalystWindows\\AnalystWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-29T14:42:27.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AnalystWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\AnalystWindows\\AnalystWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Windows\\AnalystWindows\\AnalystWindow.xaml.cs",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\AnalystWindows\\AnalystWindow.xaml.cs",
+              "RelativeToolTip": "Windows\\AnalystWindows\\AnalystWindow.xaml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAnwBoAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:56:24.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CashierAddApplicationWindow.xaml",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\CashierWindows\\CashierAddApplicationWindow.xaml",
+              "RelativeDocumentMoniker": "Windows\\CashierWindows\\CashierAddApplicationWindow.xaml",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\CashierWindows\\CashierAddApplicationWindow.xaml",
+              "RelativeToolTip": "Windows\\CashierWindows\\CashierAddApplicationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-29T15:18:17.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CashierAddApplicationWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\CashierWindows\\CashierAddApplicationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Windows\\CashierWindows\\CashierAddApplicationWindow.xaml.cs",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\CashierWindows\\CashierAddApplicationWindow.xaml.cs",
+              "RelativeToolTip": "Windows\\CashierWindows\\CashierAddApplicationWindow.xaml.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T15:19:17.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListProductsWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\CashierWindows\\ListProductsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Windows\\CashierWindows\\ListProductsWindow.xaml.cs",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\CashierWindows\\ListProductsWindow.xaml.cs",
+              "RelativeToolTip": "Windows\\CashierWindows\\ListProductsWindow.xaml.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAmwB8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T14:20:12.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-05-03T14:14:42.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-29T15:34:38.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthorizationWindow.xaml",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\WindowsForAllUsers\\AuthorizationWindow.xaml",
+              "RelativeDocumentMoniker": "Windows\\WindowsForAllUsers\\AuthorizationWindow.xaml",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\WindowsForAllUsers\\AuthorizationWindow.xaml",
+              "RelativeToolTip": "Windows\\WindowsForAllUsers\\AuthorizationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-03T10:10:40.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthorizationWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\WindowsForAllUsers\\AuthorizationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Windows\\WindowsForAllUsers\\AuthorizationWindow.xaml.cs",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\WindowsForAllUsers\\AuthorizationWindow.xaml.cs",
+              "RelativeToolTip": "Windows\\WindowsForAllUsers\\AuthorizationWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAWwHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T13:47:04.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InformationWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\WindowsForAllUsers\\InformationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Windows\\WindowsForAllUsers\\InformationWindow.xaml.cs",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\WindowsForAllUsers\\InformationWindow.xaml.cs",
+              "RelativeToolTip": "Windows\\WindowsForAllUsers\\InformationWindow.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowEEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T15:32:42.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DepartmentWindow.xaml",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\DepartmentWindows\\DepartmentWindow.xaml",
+              "RelativeDocumentMoniker": "Windows\\DepartmentWindows\\DepartmentWindow.xaml",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\DepartmentWindows\\DepartmentWindow.xaml",
+              "RelativeToolTip": "Windows\\DepartmentWindows\\DepartmentWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-29T14:42:15.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CashierWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\CashierWindows\\CashierWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Windows\\CashierWindows\\CashierWindow.xaml.cs",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\CashierWindows\\CashierWindow.xaml.cs",
+              "RelativeToolTip": "Windows\\CashierWindows\\CashierWindow.xaml.cs",
+              "ViewState": "AgIAANEAAAAAAAAAAAD4v20AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:56:27.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DepartmentWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\DepartmentWindows\\DepartmentWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Windows\\DepartmentWindows\\DepartmentWindow.xaml.cs",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\DepartmentWindows\\DepartmentWindow.xaml.cs",
+              "RelativeToolTip": "Windows\\DepartmentWindows\\DepartmentWindow.xaml.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAwwLAAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:56:19.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PrintMarkingWindow.xaml",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\DepartmentWindows\\PrintMarkingWindow.xaml",
+              "RelativeDocumentMoniker": "Windows\\DepartmentWindows\\PrintMarkingWindow.xaml",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\DepartmentWindows\\PrintMarkingWindow.xaml",
+              "RelativeToolTip": "Windows\\DepartmentWindows\\PrintMarkingWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-03T08:48:39.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PrintMarkingWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\DepartmentWindows\\PrintMarkingWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Windows\\DepartmentWindows\\PrintMarkingWindow.xaml.cs",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\DepartmentWindows\\PrintMarkingWindow.xaml.cs",
+              "RelativeToolTip": "Windows\\DepartmentWindows\\PrintMarkingWindow.xaml.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAuwHoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T08:30:45.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FullScreenImageProductWindow.xaml",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\WindowsForAllUsers\\FullScreenImageProductWindow.xaml",
+              "RelativeDocumentMoniker": "Windows\\WindowsForAllUsers\\FullScreenImageProductWindow.xaml",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\WindowsForAllUsers\\FullScreenImageProductWindow.xaml",
+              "RelativeToolTip": "Windows\\WindowsForAllUsers\\FullScreenImageProductWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-03T09:52:42.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InformationWindow.xaml",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\WindowsForAllUsers\\InformationWindow.xaml",
+              "RelativeDocumentMoniker": "Windows\\WindowsForAllUsers\\InformationWindow.xaml",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\WindowsForAllUsers\\InformationWindow.xaml",
+              "RelativeToolTip": "Windows\\WindowsForAllUsers\\InformationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-03T09:52:41.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SelectQuantityForPrintWindow.xaml",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\DepartmentWindows\\SelectQuantityForPrintWindow.xaml",
+              "RelativeDocumentMoniker": "Windows\\DepartmentWindows\\SelectQuantityForPrintWindow.xaml",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\DepartmentWindows\\SelectQuantityForPrintWindow.xaml",
+              "RelativeToolTip": "Windows\\DepartmentWindows\\SelectQuantityForPrintWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-03T09:11:08.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "StorekeeperEditRequestWriteOffWindow.xaml",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\StorekeeperWindows\\StorekeeperEditRequestWriteOffWindow.xaml",
+              "RelativeDocumentMoniker": "Windows\\StorekeeperWindows\\StorekeeperEditRequestWriteOffWindow.xaml",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\StorekeeperWindows\\StorekeeperEditRequestWriteOffWindow.xaml",
+              "RelativeToolTip": "Windows\\StorekeeperWindows\\StorekeeperEditRequestWriteOffWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-03T13:33:40.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ListProductsWindow.xaml",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\CashierWindows\\ListProductsWindow.xaml",
+              "RelativeDocumentMoniker": "Windows\\CashierWindows\\ListProductsWindow.xaml",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\CashierWindows\\ListProductsWindow.xaml",
+              "RelativeToolTip": "Windows\\CashierWindows\\ListProductsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-30T14:18:07.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DepartmentEditRequestMarkingWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\DepartmentWindows\\DepartmentEditRequestMarkingWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Windows\\DepartmentWindows\\DepartmentEditRequestMarkingWindow.xaml.cs",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\DepartmentWindows\\DepartmentEditRequestMarkingWindow.xaml.cs",
+              "RelativeToolTip": "Windows\\DepartmentWindows\\DepartmentEditRequestMarkingWindow.xaml.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAcwKEAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T09:16:02.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RequestsWriteOff.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Entities\\RequestsWriteOff.cs",
+              "RelativeDocumentMoniker": "Entities\\RequestsWriteOff.cs",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Entities\\RequestsWriteOff.cs",
+              "RelativeToolTip": "Entities\\RequestsWriteOff.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwBAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T16:05:53.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FullScreenImageProductWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\WindowsForAllUsers\\FullScreenImageProductWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Windows\\WindowsForAllUsers\\FullScreenImageProductWindow.xaml.cs",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\WindowsForAllUsers\\FullScreenImageProductWindow.xaml.cs",
+              "RelativeToolTip": "Windows\\WindowsForAllUsers\\FullScreenImageProductWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T09:58:38.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StorekeeperWindow.xaml",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\StorekeeperWindows\\StorekeeperWindow.xaml",
+              "RelativeDocumentMoniker": "Windows\\StorekeeperWindows\\StorekeeperWindow.xaml",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\StorekeeperWindows\\StorekeeperWindow.xaml",
+              "RelativeToolTip": "Windows\\StorekeeperWindows\\StorekeeperWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-29T14:56:07.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "StorekeeperWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\StorekeeperWindows\\StorekeeperWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Windows\\StorekeeperWindows\\StorekeeperWindow.xaml.cs",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\StorekeeperWindows\\StorekeeperWindow.xaml.cs",
+              "RelativeToolTip": "Windows\\StorekeeperWindows\\StorekeeperWindow.xaml.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAwwCgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:56:10.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DepartmentEditRequestMarkingWindow.xaml",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\DepartmentWindows\\DepartmentEditRequestMarkingWindow.xaml",
+              "RelativeDocumentMoniker": "Windows\\DepartmentWindows\\DepartmentEditRequestMarkingWindow.xaml",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\DepartmentWindows\\DepartmentEditRequestMarkingWindow.xaml",
+              "RelativeToolTip": "Windows\\DepartmentWindows\\DepartmentEditRequestMarkingWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-03T10:10:47.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StorekeeperEditRequestWriteOffWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\StorekeeperWindows\\StorekeeperEditRequestWriteOffWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Windows\\StorekeeperWindows\\StorekeeperEditRequestWriteOffWindow.xaml.cs",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\StorekeeperWindows\\StorekeeperEditRequestWriteOffWindow.xaml.cs",
+              "RelativeToolTip": "Windows\\StorekeeperWindows\\StorekeeperEditRequestWriteOffWindow.xaml.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAYwHAAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T13:33:55.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CashierWindow.xaml",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\CashierWindows\\CashierWindow.xaml",
+              "RelativeDocumentMoniker": "Windows\\CashierWindows\\CashierWindow.xaml",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\CashierWindows\\CashierWindow.xaml",
+              "RelativeToolTip": "Windows\\CashierWindows\\CashierWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-29T14:42:04.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RemaindProducts.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Entities\\RemaindProducts.cs",
+              "RelativeDocumentMoniker": "Entities\\RemaindProducts.cs",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Entities\\RemaindProducts.cs",
+              "RelativeToolTip": "Entities\\RemaindProducts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T16:06:59.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RequestsMarking.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Entities\\RequestsMarking.cs",
+              "RelativeDocumentMoniker": "Entities\\RequestsMarking.cs",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Entities\\RequestsMarking.cs",
+              "RelativeToolTip": "Entities\\RequestsMarking.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T14:16:20.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "code (107).c",
+              "DocumentMoniker": "C:\\Users\\sadov\\Downloads\\Telegram Desktop\\code (107).c",
+              "ToolTip": "C:\\Users\\sadov\\Downloads\\Telegram Desktop\\code (107).c",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-05-03T15:58:54.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SelectQuantityForPrintWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\DepartmentWindows\\SelectQuantityForPrintWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Windows\\DepartmentWindows\\SelectQuantityForPrintWindow.xaml.cs",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\DepartmentWindows\\SelectQuantityForPrintWindow.xaml.cs",
+              "RelativeToolTip": "Windows\\DepartmentWindows\\SelectQuantityForPrintWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAACGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T09:16:04.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "code (109).c",
+              "DocumentMoniker": "C:\\Users\\sadov\\Downloads\\Telegram Desktop\\code (109).c",
+              "ToolTip": "C:\\Users\\sadov\\Downloads\\Telegram Desktop\\code (109).c",
+              "ViewState": "AgIAAGEAAAAAAAAAAADwv4sAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-05-03T16:33:22.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "code (110).c",
+              "DocumentMoniker": "C:\\Users\\sadov\\Downloads\\Telegram Desktop\\code (110).c",
+              "ToolTip": "C:\\Users\\sadov\\Downloads\\Telegram Desktop\\code (110).c",
+              "ViewState": "AgIAAFYAAAAAAAAAAADwv4YAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-05-03T16:38:53.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Products.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Entities\\Products.cs",
+              "RelativeDocumentMoniker": "Entities\\Products.cs",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Entities\\Products.cs",
+              "RelativeToolTip": "Entities\\Products.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T14:16:10.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Employees.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Entities\\Employees.cs",
+              "RelativeDocumentMoniker": "Entities\\Employees.cs",
+              "ToolTip": "D:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0414\u0438\u043F\u043B\u043E\u043C\\\u0412 \u0440\u0435\u0437\u044E\u043C\u0435\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Entities\\Employees.cs",
+              "RelativeToolTip": "Entities\\Employees.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T14:16:04.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AuthorizationWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\sadov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\AuthorizationWindow.xaml",
+              "ToolTip": "C:\\Users\\sadov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\AuthorizationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-29T14:29:45.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "InformationWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\sadov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\InformationWindow.xaml",
+              "ToolTip": "C:\\Users\\sadov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\InformationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-30T16:46:52.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AuthorizationWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sadov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\AuthorizationWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\sadov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\AuthorizationWindow.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:34:41.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "InformationWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sadov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\InformationWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\sadov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0414\u0438\u043F\u043B\u043E\u043C\\SadovDiploma\\Windows\\InformationWindow.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T16:56:24.879Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

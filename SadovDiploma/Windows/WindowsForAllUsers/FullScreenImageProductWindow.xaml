@@ -1,0 +1,56 @@
+﻿<Window x:Class="SadovDiploma.Windows.WindowsForAllUsers.FullScreenImageProductWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SadovDiploma.Windows.WindowsForAllUsers"
+        mc:Ignorable="d"  Height="650" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Background="#e9f1f2" 
+        Icon="\price-scan-scanner-bar-barcode-code_108573.ico" Title="Просмотр информации о товаре">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.5*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <GroupBox Grid.Column="1" Margin="5 60 5 60" Header="Информация о товаре" FontSize="14">
+                <StackPanel Margin="5">
+                    <TextBlock x:Name="TbNameProduct"  TextWrapping="Wrap"  FontWeight="Bold" FontSize="16" Margin="0 10 0 0"/>
+                    <TextBlock Text="ЛК: " TextWrapping="Wrap" Margin="0 20 0 0" FontSize="14">
+                        <Run x:Name="TbRunLk" />
+                    </TextBlock>
+                    <TextBlock Text="Отдел: " TextWrapping="Wrap" Margin="0 20 0 0" FontSize="14">
+                        <Run x:Name="TbRunDepartment" />
+                    </TextBlock>
+                    <TextBlock Text="Категория: " TextWrapping="Wrap" Margin="0 20 0 0" FontSize="14">
+                        <Run x:Name="TbRunCategory" />
+                    </TextBlock>
+                    <TextBlock Text="Размер (мм): " TextWrapping="Wrap" Margin="0 20 0 0" FontSize="14">
+                        <Run x:Name="TbRunSize" />
+                    </TextBlock>
+                    <TextBlock Text="Вес (кг): " TextWrapping="Wrap" Margin="0 20 0 0" FontSize="14">
+                        <Run x:Name="TbRunWeight" />
+                    </TextBlock>
+                    <TextBlock Text="Цвет: " TextWrapping="Wrap" Margin="0 20 0 0" FontSize="14">
+                        <Run x:Name="TbRunColor" />
+                    </TextBlock>   
+                    <TextBlock Text="Закупочная цена (руб.): " TextWrapping="Wrap" Margin="0 20 0 0" FontSize="14">
+                        <Run x:Name="TbRunPurchasePrice" />
+                    </TextBlock>   
+                    <TextBlock Text="Розничная цена (руб.): " TextWrapping="Wrap" Margin="0 20 0 0" FontSize="14">
+                        <Run x:Name="TbRunSellPrice" />
+                    </TextBlock>  
+                    <TextBlock Text="Остаток (шт): " TextWrapping="Wrap" Margin="0 20 0 0" FontSize="14">
+                        <Run x:Name="TbQuantity" />
+                    </TextBlock>
+                    
+                </StackPanel>
+            </GroupBox>
+            <Image Grid.Row="1" Stretch="Fill" Height="430" Width="450" x:Name="ImageProduct"/>
+        </Grid>
+        <Button Content="Закрыть" Grid.Row="2" Width="100" Height="30" Style="{StaticResource ExitButton}" Click="Button_Click"/>
+    </Grid>
+</Window>

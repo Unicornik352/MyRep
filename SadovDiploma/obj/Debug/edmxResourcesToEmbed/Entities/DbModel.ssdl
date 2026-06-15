@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище sadovDiplomaDOMModel" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="departmentId" Type="int" />
+    <Property Name="name" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="DepartmentAccounts">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="100" />
+    <Property Name="mail" Type="nvarchar" MaxLength="100" />
+    <Property Name="localPhone" Type="nvarchar" MaxLength="4" />
+    <Property Name="login" Type="nvarchar" MaxLength="100" />
+    <Property Name="password" Type="nvarchar" MaxLength="100" />
+    <Property Name="hypermarketId" Type="int" />
+  </EntityType>
+  <EntityType Name="Departments">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="surname" Type="nvarchar" MaxLength="50" />
+    <Property Name="patronymic" Type="nvarchar" MaxLength="50" />
+    <Property Name="phone" Type="nvarchar" MaxLength="20" />
+    <Property Name="mail" Type="nvarchar" MaxLength="255" />
+    <Property Name="birthday" Type="date" />
+    <Property Name="login" Type="nvarchar" MaxLength="50" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" />
+    <Property Name="hypermarketId" Type="int" />
+    <Property Name="roleId" Type="int" />
+  </EntityType>
+  <EntityType Name="Hypermarkets">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="branchName" Type="nvarchar" MaxLength="100" />
+    <Property Name="address" Type="nvarchar" MaxLength="255" />
+    <Property Name="phone" Type="nvarchar" MaxLength="20" />
+    <Property Name="mail" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Products">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="200" />
+    <Property Name="description" Type="nvarchar(max)" />
+    <Property Name="categoryId" Type="int" />
+    <Property Name="image" Type="nvarchar(max)" />
+    <Property Name="size" Type="nvarchar" MaxLength="30" />
+    <Property Name="weight" Type="float" />
+    <Property Name="color" Type="nvarchar" MaxLength="50" />
+    <Property Name="purchasePrice" Type="float" />
+    <Property Name="salePrice" Type="float" />
+  </EntityType>
+  <EntityType Name="ReasonsRequests">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="RemaindProducts">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="productId" Type="int" />
+    <Property Name="quantity" Type="int" />
+    <Property Name="hypermarketId" Type="int" />
+  </EntityType>
+  <EntityType Name="RequestsMarking">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="dateCreation" Type="datetime" />
+    <Property Name="dateClose" Type="datetime" />
+    <Property Name="productId" Type="int" />
+    <Property Name="reasonId" Type="int" />
+    <Property Name="creatorId" Type="int" />
+    <Property Name="actionsTaken" Type="nvarchar(max)" />
+    <Property Name="statusId" Type="int" />
+    <Property Name="executor" Type="nvarchar" MaxLength="255" />
+    <Property Name="description" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="RequestsWriteOff">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="dateCreation" Type="datetime" />
+    <Property Name="dateClose" Type="datetime" />
+    <Property Name="productId" Type="int" />
+    <Property Name="quantity" Type="int" />
+    <Property Name="creatorId" Type="int" />
+    <Property Name="statusId" Type="int" />
+    <Property Name="storekeeperId" Type="int" />
+    <Property Name="desciption" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="StatusesRequestsMarking">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="StatusesRequestsWriteOff">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK__Employees__hyper__3B75D760">
+    <End Role="Hypermarkets" Type="Self.Hypermarkets" Multiplicity="0..1" />
+    <End Role="Employees" Type="Self.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Hypermarkets">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Employees">
+        <PropertyRef Name="hypermarketId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Employees__roleI__3C69FB99">
+    <End Role="Roles" Type="Self.Roles" Multiplicity="0..1" />
+    <End Role="Employees" Type="Self.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Employees">
+        <PropertyRef Name="roleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Products__catego__46E78A0C">
+    <End Role="Categories" Type="Self.Categories" Multiplicity="0..1" />
+    <End Role="Products" Type="Self.Products" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="categoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RemaindPr__hyper__4AB81AF0">
+    <End Role="Hypermarkets" Type="Self.Hypermarkets" Multiplicity="0..1" />
+    <End Role="RemaindProducts" Type="Self.RemaindProducts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Hypermarkets">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RemaindProducts">
+        <PropertyRef Name="hypermarketId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RemaindPr__produ__49C3F6B7">
+    <End Role="Products" Type="Self.Products" Multiplicity="0..1" />
+    <End Role="RemaindProducts" Type="Self.RemaindProducts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RemaindProducts">
+        <PropertyRef Name="productId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RequestsM__creat__4F7CD00D">
+    <End Role="Employees" Type="Self.Employees" Multiplicity="0..1" />
+    <End Role="RequestsMarking" Type="Self.RequestsMarking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RequestsMarking">
+        <PropertyRef Name="creatorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RequestsM__produ__4D94879B">
+    <End Role="Products" Type="Self.Products" Multiplicity="0..1" />
+    <End Role="RequestsMarking" Type="Self.RequestsMarking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RequestsMarking">
+        <PropertyRef Name="productId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RequestsM__reaso__4E88ABD4">
+    <End Role="ReasonsRequests" Type="Self.ReasonsRequests" Multiplicity="0..1" />
+    <End Role="RequestsMarking" Type="Self.RequestsMarking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ReasonsRequests">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RequestsMarking">
+        <PropertyRef Name="reasonId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RequestsM__statu__5070F446">
+    <End Role="StatusesRequestsMarking" Type="Self.StatusesRequestsMarking" Multiplicity="0..1" />
+    <End Role="RequestsMarking" Type="Self.RequestsMarking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StatusesRequestsMarking">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RequestsMarking">
+        <PropertyRef Name="statusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RequestsW__creat__5535A963">
+    <End Role="Employees" Type="Self.Employees" Multiplicity="0..1" />
+    <End Role="RequestsWriteOff" Type="Self.RequestsWriteOff" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RequestsWriteOff">
+        <PropertyRef Name="creatorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RequestsW__produ__534D60F1">
+    <End Role="Products" Type="Self.Products" Multiplicity="0..1" />
+    <End Role="RequestsWriteOff" Type="Self.RequestsWriteOff" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RequestsWriteOff">
+        <PropertyRef Name="productId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RequestsW__statu__5629CD9C">
+    <End Role="StatusesRequestsWriteOff" Type="Self.StatusesRequestsWriteOff" Multiplicity="0..1" />
+    <End Role="RequestsWriteOff" Type="Self.RequestsWriteOff" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StatusesRequestsWriteOff">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RequestsWriteOff">
+        <PropertyRef Name="statusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RequestsW__store__571DF1D5">
+    <End Role="Employees" Type="Self.Employees" Multiplicity="0..1" />
+    <End Role="RequestsWriteOff" Type="Self.RequestsWriteOff" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RequestsWriteOff">
+        <PropertyRef Name="storekeeperId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Categories_Departments">
+    <End Role="Departments" Type="Self.Departments" Multiplicity="0..1" />
+    <End Role="Categories" Type="Self.Categories" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departments">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Categories">
+        <PropertyRef Name="departmentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Departments_Hypermarkets">
+    <End Role="Hypermarkets" Type="Self.Hypermarkets" Multiplicity="0..1" />
+    <End Role="DepartmentAccounts" Type="Self.DepartmentAccounts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Hypermarkets">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="DepartmentAccounts">
+        <PropertyRef Name="hypermarketId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище sadovDiplomaDOMModelContainer">
+    <EntitySet Name="Categories" EntityType="Self.Categories" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DepartmentAccounts" EntityType="Self.DepartmentAccounts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Departments" EntityType="Self.Departments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employees" EntityType="Self.Employees" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Hypermarkets" EntityType="Self.Hypermarkets" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Products" EntityType="Self.Products" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ReasonsRequests" EntityType="Self.ReasonsRequests" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RemaindProducts" EntityType="Self.RemaindProducts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RequestsMarking" EntityType="Self.RequestsMarking" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RequestsWriteOff" EntityType="Self.RequestsWriteOff" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StatusesRequestsMarking" EntityType="Self.StatusesRequestsMarking" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StatusesRequestsWriteOff" EntityType="Self.StatusesRequestsWriteOff" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Employees__hyper__3B75D760" Association="Self.FK__Employees__hyper__3B75D760">
+      <End Role="Hypermarkets" EntitySet="Hypermarkets" />
+      <End Role="Employees" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Employees__roleI__3C69FB99" Association="Self.FK__Employees__roleI__3C69FB99">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="Employees" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Products__catego__46E78A0C" Association="Self.FK__Products__catego__46E78A0C">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RemaindPr__hyper__4AB81AF0" Association="Self.FK__RemaindPr__hyper__4AB81AF0">
+      <End Role="Hypermarkets" EntitySet="Hypermarkets" />
+      <End Role="RemaindProducts" EntitySet="RemaindProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RemaindPr__produ__49C3F6B7" Association="Self.FK__RemaindPr__produ__49C3F6B7">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="RemaindProducts" EntitySet="RemaindProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RequestsM__creat__4F7CD00D" Association="Self.FK__RequestsM__creat__4F7CD00D">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="RequestsMarking" EntitySet="RequestsMarking" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RequestsM__produ__4D94879B" Association="Self.FK__RequestsM__produ__4D94879B">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="RequestsMarking" EntitySet="RequestsMarking" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RequestsM__reaso__4E88ABD4" Association="Self.FK__RequestsM__reaso__4E88ABD4">
+      <End Role="ReasonsRequests" EntitySet="ReasonsRequests" />
+      <End Role="RequestsMarking" EntitySet="RequestsMarking" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RequestsM__statu__5070F446" Association="Self.FK__RequestsM__statu__5070F446">
+      <End Role="StatusesRequestsMarking" EntitySet="StatusesRequestsMarking" />
+      <End Role="RequestsMarking" EntitySet="RequestsMarking" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RequestsW__creat__5535A963" Association="Self.FK__RequestsW__creat__5535A963">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="RequestsWriteOff" EntitySet="RequestsWriteOff" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RequestsW__produ__534D60F1" Association="Self.FK__RequestsW__produ__534D60F1">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="RequestsWriteOff" EntitySet="RequestsWriteOff" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RequestsW__statu__5629CD9C" Association="Self.FK__RequestsW__statu__5629CD9C">
+      <End Role="StatusesRequestsWriteOff" EntitySet="StatusesRequestsWriteOff" />
+      <End Role="RequestsWriteOff" EntitySet="RequestsWriteOff" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RequestsW__store__571DF1D5" Association="Self.FK__RequestsW__store__571DF1D5">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="RequestsWriteOff" EntitySet="RequestsWriteOff" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Categories_Departments" Association="Self.FK_Categories_Departments">
+      <End Role="Departments" EntitySet="Departments" />
+      <End Role="Categories" EntitySet="Categories" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Departments_Hypermarkets" Association="Self.FK_Departments_Hypermarkets">
+      <End Role="Hypermarkets" EntitySet="Hypermarkets" />
+      <End Role="DepartmentAccounts" EntitySet="DepartmentAccounts" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

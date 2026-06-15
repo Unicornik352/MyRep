@@ -1,0 +1,44 @@
+﻿<Window x:Class="SadovDiploma.Windows.DepartmentWindows.PrintMarkingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SadovDiploma.Windows.DepartmentWindows"
+        mc:Ignorable="d"
+        Title="Просмотр страницы для печати" Height="550" Width="770" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" 
+        Icon="\price-scan-scanner-bar-barcode-code_108573.ico" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <ListView x:Name="ListViewToPrint" Margin="5" ScrollViewer.HorizontalScrollBarVisibility="Disabled" 
+                  ScrollViewer.VerticalScrollBarVisibility="Auto">
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Horizontal" HorizontalAlignment="Stretch" />
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="Focusable" Value="false"/>
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderThickness="1" BorderBrush="Black" Margin="5">
+                        <StackPanel Orientation="Vertical" Width="140" Height="100"  Margin="5">
+                            <TextBlock Text="{Binding nameProduct}" FontSize="10" Margin="0 0 0 2" TextWrapping="Wrap"/>
+                            <Image Source="{Binding barcodeSource}" Height="60"/>
+                        </StackPanel>
+
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1">
+            <Button Content="Отправить на принтер" Width="170" x:Name="ButtonPrint" Click="ButtonPrint_Click"/>
+            <Button Content="Отмена" Width="100" x:Name="CancelButton" Click="CancelButton_Click" Style="{StaticResource ExitButton}" Margin="20 0  0 0" />
+        </StackPanel>
+    </Grid>
+</Window>

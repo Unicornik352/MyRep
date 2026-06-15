@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0c2ac0fcd3424539b5fbbc742779710f" Name="Diagram1">
+        <EntityTypeShape EntityType="sadovDiplomaDOMModel.Categories" Width="1.5" PointX="1.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sadovDiplomaDOMModel.DepartmentAccounts" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="sadovDiplomaDOMModel.Departments" Width="1.5" PointX="1.5" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sadovDiplomaDOMModel.Employees" Width="1.5" PointX="6" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sadovDiplomaDOMModel.Hypermarkets" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="sadovDiplomaDOMModel.Products" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sadovDiplomaDOMModel.ReasonsRequests" Width="1.5" PointX="6" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sadovDiplomaDOMModel.RemaindProducts" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sadovDiplomaDOMModel.RequestsMarking" Width="1.5" PointX="8.25" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sadovDiplomaDOMModel.RequestsWriteOff" Width="1.5" PointX="11.25" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="sadovDiplomaDOMModel.Roles" Width="1.5" PointX="3.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="sadovDiplomaDOMModel.StatusesRequestsMarking" Width="1.5" PointX="6" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sadovDiplomaDOMModel.StatusesRequestsWriteOff" Width="1.5" PointX="9" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="sadovDiplomaDOMModel.sysdiagrams" Width="1.5" PointX="3.75" PointY="1.875" IsExpanded="true" />
+        <AssociationConnector Association="sadovDiplomaDOMModel.FK__Products__catego__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="sadovDiplomaDOMModel.FK_Categories_Departments" ManuallyRouted="false" />
+        <AssociationConnector Association="sadovDiplomaDOMModel.FK_Departments_Hypermarkets" ManuallyRouted="false" />
+        <AssociationConnector Association="sadovDiplomaDOMModel.FK__Employees__hyper__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="sadovDiplomaDOMModel.FK__Employees__roleI__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="sadovDiplomaDOMModel.FK__RequestsM__creat__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="sadovDiplomaDOMModel.FK__RequestsW__creat__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="sadovDiplomaDOMModel.FK__RequestsW__store__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="sadovDiplomaDOMModel.FK__RemaindPr__hyper__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="sadovDiplomaDOMModel.FK__RemaindPr__produ__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="sadovDiplomaDOMModel.FK__RequestsM__produ__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="sadovDiplomaDOMModel.FK__RequestsW__produ__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="sadovDiplomaDOMModel.FK__RequestsM__reaso__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="sadovDiplomaDOMModel.FK__RequestsM__statu__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="sadovDiplomaDOMModel.FK__RequestsW__statu__5629CD9C" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

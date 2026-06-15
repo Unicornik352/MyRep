@@ -1,0 +1,212 @@
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\SadovDiploma.csproj.AssemblyReference.cache
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\AnalystWindows\AnalystWindow.g.cs
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\CashierWindows\CashierAddApplicationWindow.g.cs
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\CashierWindows\CashierWindow.g.cs
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\DepartmentWindows\DepartmentWindow.g.cs
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\StorekeeperWindows\StorekeeperWindow.g.cs
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\App.g.cs
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Маркировка_Content.g.cs
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Маркировка_MarkupCompile.cache
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Маркировка_MarkupCompile.lref
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\bin\Debug\Маркировка.exe.config
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\bin\Debug\Маркировка.exe
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\bin\Debug\Маркировка.pdb
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\bin\Debug\EntityFramework.dll
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\bin\Debug\EntityFramework.xml
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\App.baml
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\AnalystWindows\AnalystWindow.baml
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\CashierWindows\CashierAddApplicationWindow.baml
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\CashierWindows\CashierWindow.baml
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\DepartmentWindows\DepartmentWindow.baml
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\StorekeeperWindows\StorekeeperWindow.baml
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Маркировка.g.resources
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\SadovDiploma.Properties.Resources.resources
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\SadovDiploma.csproj.GenerateResource.cache
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\SadovDiploma.csproj.CoreCompileInputs.cache
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\SadovDip.AFAB0281.Up2Date
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Маркировка.exe
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Маркировка.pdb
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\CashierWindows\ListProductsWindow.g.cs
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\CashierWindows\ListProductsWindow.baml
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\WindowsForAllUsers\AuthorizationWindow.g.cs
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\WindowsForAllUsers\InformationWindow.g.cs
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\WindowsForAllUsers\AuthorizationWindow.baml
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\WindowsForAllUsers\InformationWindow.baml
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\WindowsForAllUsers\FullScreenImageProductWindow.g.cs
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\WindowsForAllUsers\FullScreenImageProductWindow.baml
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\DepartmentWindows\DepartmentEditRequestMarkingWindow.g.cs
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\DepartmentWindows\DepartmentEditRequestMarkingWindow.baml
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\DepartmentWindows\PrintMarkingWindow.g.cs
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\DepartmentWindows\SelectQuantityForPrintWindow.g.cs
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\DepartmentWindows\PrintMarkingWindow.baml
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\DepartmentWindows\SelectQuantityForPrintWindow.baml
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\bin\Debug\Aspose.BarCode.dll
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\bin\Debug\Aspose.BarCode.xml
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\StorekeeperWindows\StorekeeperEditRequestWriteOffWindow.g.cs
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\obj\Debug\Windows\StorekeeperWindows\StorekeeperEditRequestWriteOffWindow.baml
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\bin\Debug\LiveCharts.dll
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\bin\Debug\LiveCharts.pdb
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\bin\Debug\LiveCharts.xml
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\sadov\OneDrive\Рабочий стол\Диплом\SadovDiploma\bin\Debug\LiveCharts.Wpf.xml
+D:\Колледж\Диплом\SadovDiploma\bin\Debug\Маркировка.exe.config
+D:\Колледж\Диплом\SadovDiploma\bin\Debug\Маркировка.exe
+D:\Колледж\Диплом\SadovDiploma\bin\Debug\Маркировка.pdb
+D:\Колледж\Диплом\SadovDiploma\bin\Debug\Aspose.BarCode.dll
+D:\Колледж\Диплом\SadovDiploma\bin\Debug\EntityFramework.dll
+D:\Колледж\Диплом\SadovDiploma\bin\Debug\LiveCharts.dll
+D:\Колледж\Диплом\SadovDiploma\bin\Debug\LiveCharts.Wpf.dll
+D:\Колледж\Диплом\SadovDiploma\bin\Debug\Aspose.BarCode.xml
+D:\Колледж\Диплом\SadovDiploma\bin\Debug\EntityFramework.xml
+D:\Колледж\Диплом\SadovDiploma\bin\Debug\LiveCharts.pdb
+D:\Колледж\Диплом\SadovDiploma\bin\Debug\LiveCharts.xml
+D:\Колледж\Диплом\SadovDiploma\bin\Debug\LiveCharts.Wpf.pdb
+D:\Колледж\Диплом\SadovDiploma\bin\Debug\LiveCharts.Wpf.xml
+D:\Колледж\Диплом\SadovDiploma\bin\Debug\ru\EntityFramework.resources.dll
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\SadovDiploma.csproj.AssemblyReference.cache
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\AnalystWindows\AnalystWindow.baml
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\AnalystWindows\AnalystWindow.g.cs
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\DepartmentWindows\DepartmentEditRequestMarkingWindow.g.cs
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\DepartmentWindows\PrintMarkingWindow.g.cs
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\DepartmentWindows\SelectQuantityForPrintWindow.g.cs
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\StorekeeperWindows\StorekeeperEditRequestWriteOffWindow.g.cs
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\WindowsForAllUsers\AuthorizationWindow.g.cs
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\CashierWindows\CashierAddApplicationWindow.g.cs
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\CashierWindows\CashierWindow.g.cs
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\CashierWindows\ListProductsWindow.g.cs
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\DepartmentWindows\DepartmentWindow.g.cs
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\WindowsForAllUsers\FullScreenImageProductWindow.g.cs
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\WindowsForAllUsers\InformationWindow.g.cs
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\StorekeeperWindows\StorekeeperWindow.g.cs
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\App.g.cs
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Маркировка_Content.g.cs
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Маркировка_MarkupCompile.cache
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Маркировка_MarkupCompile.lref
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\App.baml
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\DepartmentWindows\DepartmentEditRequestMarkingWindow.baml
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\DepartmentWindows\PrintMarkingWindow.baml
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\DepartmentWindows\SelectQuantityForPrintWindow.baml
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\StorekeeperWindows\StorekeeperEditRequestWriteOffWindow.baml
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\WindowsForAllUsers\AuthorizationWindow.baml
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\CashierWindows\CashierAddApplicationWindow.baml
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\CashierWindows\CashierWindow.baml
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\CashierWindows\ListProductsWindow.baml
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\DepartmentWindows\DepartmentWindow.baml
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\WindowsForAllUsers\FullScreenImageProductWindow.baml
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\WindowsForAllUsers\InformationWindow.baml
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Windows\StorekeeperWindows\StorekeeperWindow.baml
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Маркировка.g.resources
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\SadovDiploma.Properties.Resources.resources
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\SadovDiploma.csproj.GenerateResource.cache
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\SadovDiploma.csproj.CoreCompileInputs.cache
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\SadovDip.AFAB0281.Up2Date
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Маркировка.exe
+D:\Колледж\Диплом\SadovDiploma\obj\Debug\Маркировка.pdb
+D:\Колледж\Диплом\В резюме\SadovDiploma\bin\Debug\Маркировка.exe.config
+D:\Колледж\Диплом\В резюме\SadovDiploma\bin\Debug\Маркировка.exe
+D:\Колледж\Диплом\В резюме\SadovDiploma\bin\Debug\Маркировка.pdb
+D:\Колледж\Диплом\В резюме\SadovDiploma\bin\Debug\Aspose.BarCode.dll
+D:\Колледж\Диплом\В резюме\SadovDiploma\bin\Debug\EntityFramework.dll
+D:\Колледж\Диплом\В резюме\SadovDiploma\bin\Debug\LiveCharts.dll
+D:\Колледж\Диплом\В резюме\SadovDiploma\bin\Debug\LiveCharts.Wpf.dll
+D:\Колледж\Диплом\В резюме\SadovDiploma\bin\Debug\Aspose.BarCode.xml
+D:\Колледж\Диплом\В резюме\SadovDiploma\bin\Debug\EntityFramework.xml
+D:\Колледж\Диплом\В резюме\SadovDiploma\bin\Debug\LiveCharts.pdb
+D:\Колледж\Диплом\В резюме\SadovDiploma\bin\Debug\LiveCharts.xml
+D:\Колледж\Диплом\В резюме\SadovDiploma\bin\Debug\LiveCharts.Wpf.pdb
+D:\Колледж\Диплом\В резюме\SadovDiploma\bin\Debug\LiveCharts.Wpf.xml
+D:\Колледж\Диплом\В резюме\SadovDiploma\bin\Debug\ru\EntityFramework.resources.dll
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\SadovDiploma.csproj.AssemblyReference.cache
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\AnalystWindows\AnalystWindow.baml
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\AnalystWindows\AnalystWindow.g.cs
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\DepartmentWindows\DepartmentEditRequestMarkingWindow.g.cs
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\DepartmentWindows\PrintMarkingWindow.g.cs
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\DepartmentWindows\SelectQuantityForPrintWindow.g.cs
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\StorekeeperWindows\StorekeeperEditRequestWriteOffWindow.g.cs
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\WindowsForAllUsers\AuthorizationWindow.g.cs
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\CashierWindows\CashierAddApplicationWindow.g.cs
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\CashierWindows\CashierWindow.g.cs
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\CashierWindows\ListProductsWindow.g.cs
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\DepartmentWindows\DepartmentWindow.g.cs
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\WindowsForAllUsers\FullScreenImageProductWindow.g.cs
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\WindowsForAllUsers\InformationWindow.g.cs
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\StorekeeperWindows\StorekeeperWindow.g.cs
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\App.g.cs
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Маркировка_Content.g.cs
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Маркировка_MarkupCompile.cache
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Маркировка_MarkupCompile.lref
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\App.baml
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\DepartmentWindows\DepartmentEditRequestMarkingWindow.baml
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\DepartmentWindows\PrintMarkingWindow.baml
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\DepartmentWindows\SelectQuantityForPrintWindow.baml
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\StorekeeperWindows\StorekeeperEditRequestWriteOffWindow.baml
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\WindowsForAllUsers\AuthorizationWindow.baml
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\CashierWindows\CashierAddApplicationWindow.baml
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\CashierWindows\CashierWindow.baml
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\CashierWindows\ListProductsWindow.baml
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\DepartmentWindows\DepartmentWindow.baml
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\WindowsForAllUsers\FullScreenImageProductWindow.baml
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\WindowsForAllUsers\InformationWindow.baml
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Windows\StorekeeperWindows\StorekeeperWindow.baml
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Маркировка.g.resources
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\SadovDiploma.Properties.Resources.resources
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\SadovDiploma.csproj.GenerateResource.cache
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\SadovDiploma.csproj.CoreCompileInputs.cache
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\SadovDip.AFAB0281.Up2Date
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Маркировка.exe
+D:\Колледж\Диплом\В резюме\SadovDiploma\obj\Debug\Маркировка.pdb
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\bin\Debug\Маркировка.exe.config
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\bin\Debug\Маркировка.exe
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\bin\Debug\Маркировка.pdb
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\bin\Debug\Aspose.BarCode.dll
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\bin\Debug\EntityFramework.dll
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\bin\Debug\LiveCharts.dll
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\bin\Debug\LiveCharts.Wpf.dll
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\bin\Debug\Aspose.BarCode.xml
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\bin\Debug\EntityFramework.xml
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\bin\Debug\LiveCharts.pdb
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\bin\Debug\LiveCharts.xml
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\bin\Debug\LiveCharts.Wpf.pdb
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\bin\Debug\LiveCharts.Wpf.xml
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\bin\Debug\ru\EntityFramework.resources.dll
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\SadovDiploma.csproj.AssemblyReference.cache
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\AnalystWindows\AnalystWindow.baml
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\AnalystWindows\AnalystWindow.g.cs
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\DepartmentWindows\DepartmentEditRequestMarkingWindow.g.cs
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\DepartmentWindows\PrintMarkingWindow.g.cs
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\DepartmentWindows\SelectQuantityForPrintWindow.g.cs
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\StorekeeperWindows\StorekeeperEditRequestWriteOffWindow.g.cs
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\WindowsForAllUsers\AuthorizationWindow.g.cs
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\CashierWindows\CashierAddApplicationWindow.g.cs
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\CashierWindows\CashierWindow.g.cs
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\CashierWindows\ListProductsWindow.g.cs
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\DepartmentWindows\DepartmentWindow.g.cs
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\WindowsForAllUsers\FullScreenImageProductWindow.g.cs
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\WindowsForAllUsers\InformationWindow.g.cs
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\StorekeeperWindows\StorekeeperWindow.g.cs
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\App.g.cs
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Маркировка_Content.g.cs
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Маркировка_MarkupCompile.cache
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Маркировка_MarkupCompile.lref
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\App.baml
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\DepartmentWindows\DepartmentEditRequestMarkingWindow.baml
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\DepartmentWindows\PrintMarkingWindow.baml
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\DepartmentWindows\SelectQuantityForPrintWindow.baml
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\StorekeeperWindows\StorekeeperEditRequestWriteOffWindow.baml
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\WindowsForAllUsers\AuthorizationWindow.baml
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\CashierWindows\CashierAddApplicationWindow.baml
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\CashierWindows\CashierWindow.baml
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\CashierWindows\ListProductsWindow.baml
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\DepartmentWindows\DepartmentWindow.baml
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\WindowsForAllUsers\FullScreenImageProductWindow.baml
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\WindowsForAllUsers\InformationWindow.baml
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Windows\StorekeeperWindows\StorekeeperWindow.baml
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Маркировка.g.resources
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\SadovDiploma.Properties.Resources.resources
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\SadovDiploma.csproj.GenerateResource.cache
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\SadovDiploma.csproj.CoreCompileInputs.cache
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\SadovDip.AFAB0281.Up2Date
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Маркировка.exe
+D:\Колледж\Диплом\В резюме\Диплом\SadovDiploma\obj\Debug\Маркировка.pdb

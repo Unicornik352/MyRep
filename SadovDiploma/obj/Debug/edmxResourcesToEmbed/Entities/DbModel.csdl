@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="sadovDiplomaDOMModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="departmentId" Type="Int32" />
+    <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Products" Relationship="Self.FK__Products__catego__46E78A0C" FromRole="Categories" ToRole="Products" />
+    <NavigationProperty Name="Departments" Relationship="Self.FK_Categories_Departments" FromRole="Categories" ToRole="Departments" />
+  </EntityType>
+  <EntityType Name="DepartmentAccounts">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="mail" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="localPhone" Type="String" MaxLength="4" FixedLength="false" Unicode="true" />
+    <Property Name="login" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="hypermarketId" Type="Int32" />
+    <NavigationProperty Name="Hypermarkets" Relationship="Self.FK_Departments_Hypermarkets" FromRole="DepartmentAccounts" ToRole="Hypermarkets" />
+  </EntityType>
+  <EntityType Name="Departments">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Categories" Relationship="Self.FK_Categories_Departments" FromRole="Departments" ToRole="Categories" />
+  </EntityType>
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="surname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="patronymic" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="mail" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="birthday" Type="DateTime" Precision="0" />
+    <Property Name="login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="hypermarketId" Type="Int32" />
+    <Property Name="roleId" Type="Int32" />
+    <NavigationProperty Name="Hypermarkets" Relationship="Self.FK__Employees__hyper__3B75D760" FromRole="Employees" ToRole="Hypermarkets" />
+    <NavigationProperty Name="Roles" Relationship="Self.FK__Employees__roleI__3C69FB99" FromRole="Employees" ToRole="Roles" />
+    <NavigationProperty Name="RequestsMarking" Relationship="Self.FK__RequestsM__creat__4F7CD00D" FromRole="Employees" ToRole="RequestsMarking" />
+    <NavigationProperty Name="RequestsWriteOff" Relationship="Self.FK__RequestsW__creat__5535A963" FromRole="Employees" ToRole="RequestsWriteOff" />
+    <NavigationProperty Name="RequestsWriteOff1" Relationship="Self.FK__RequestsW__store__571DF1D5" FromRole="Employees" ToRole="RequestsWriteOff" />
+  </EntityType>
+  <EntityType Name="Hypermarkets">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="branchName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="address" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="mail" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="DepartmentAccounts" Relationship="Self.FK_Departments_Hypermarkets" FromRole="Hypermarkets" ToRole="DepartmentAccounts" />
+    <NavigationProperty Name="Employees" Relationship="Self.FK__Employees__hyper__3B75D760" FromRole="Hypermarkets" ToRole="Employees" />
+    <NavigationProperty Name="RemaindProducts" Relationship="Self.FK__RemaindPr__hyper__4AB81AF0" FromRole="Hypermarkets" ToRole="RemaindProducts" />
+  </EntityType>
+  <EntityType Name="Products">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="categoryId" Type="Int32" />
+    <Property Name="image" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="size" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="weight" Type="Double" />
+    <Property Name="color" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="purchasePrice" Type="Double" />
+    <Property Name="salePrice" Type="Double" />
+    <NavigationProperty Name="Categories" Relationship="Self.FK__Products__catego__46E78A0C" FromRole="Products" ToRole="Categories" />
+    <NavigationProperty Name="RemaindProducts" Relationship="Self.FK__RemaindPr__produ__49C3F6B7" FromRole="Products" ToRole="RemaindProducts" />
+    <NavigationProperty Name="RequestsMarking" Relationship="Self.FK__RequestsM__produ__4D94879B" FromRole="Products" ToRole="RequestsMarking" />
+    <NavigationProperty Name="RequestsWriteOff" Relationship="Self.FK__RequestsW__produ__534D60F1" FromRole="Products" ToRole="RequestsWriteOff" />
+  </EntityType>
+  <EntityType Name="ReasonsRequests">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="RequestsMarking" Relationship="Self.FK__RequestsM__reaso__4E88ABD4" FromRole="ReasonsRequests" ToRole="RequestsMarking" />
+  </EntityType>
+  <EntityType Name="RemaindProducts">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="productId" Type="Int32" />
+    <Property Name="quantity" Type="Int32" />
+    <Property Name="hypermarketId" Type="Int32" />
+    <NavigationProperty Name="Hypermarkets" Relationship="Self.FK__RemaindPr__hyper__4AB81AF0" FromRole="RemaindProducts" ToRole="Hypermarkets" />
+    <NavigationProperty Name="Products" Relationship="Self.FK__RemaindPr__produ__49C3F6B7" FromRole="RemaindProducts" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="RequestsMarking">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="dateCreation" Type="DateTime" Precision="3" />
+    <Property Name="dateClose" Type="DateTime" Precision="3" />
+    <Property Name="productId" Type="Int32" />
+    <Property Name="reasonId" Type="Int32" />
+    <Property Name="creatorId" Type="Int32" />
+    <Property Name="actionsTaken" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="statusId" Type="Int32" />
+    <Property Name="executor" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Employees" Relationship="Self.FK__RequestsM__creat__4F7CD00D" FromRole="RequestsMarking" ToRole="Employees" />
+    <NavigationProperty Name="Products" Relationship="Self.FK__RequestsM__produ__4D94879B" FromRole="RequestsMarking" ToRole="Products" />
+    <NavigationProperty Name="ReasonsRequests" Relationship="Self.FK__RequestsM__reaso__4E88ABD4" FromRole="RequestsMarking" ToRole="ReasonsRequests" />
+    <NavigationProperty Name="StatusesRequestsMarking" Relationship="Self.FK__RequestsM__statu__5070F446" FromRole="RequestsMarking" ToRole="StatusesRequestsMarking" />
+  </EntityType>
+  <EntityType Name="RequestsWriteOff">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="dateCreation" Type="DateTime" Precision="3" />
+    <Property Name="dateClose" Type="DateTime" Precision="3" />
+    <Property Name="productId" Type="Int32" />
+    <Property Name="quantity" Type="Int32" />
+    <Property Name="creatorId" Type="Int32" />
+    <Property Name="statusId" Type="Int32" />
+    <Property Name="storekeeperId" Type="Int32" />
+    <Property Name="desciption" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Employees" Relationship="Self.FK__RequestsW__creat__5535A963" FromRole="RequestsWriteOff" ToRole="Employees" />
+    <NavigationProperty Name="Employees1" Relationship="Self.FK__RequestsW__store__571DF1D5" FromRole="RequestsWriteOff" ToRole="Employees" />
+    <NavigationProperty Name="Products" Relationship="Self.FK__RequestsW__produ__534D60F1" FromRole="RequestsWriteOff" ToRole="Products" />
+    <NavigationProperty Name="StatusesRequestsWriteOff" Relationship="Self.FK__RequestsW__statu__5629CD9C" FromRole="RequestsWriteOff" ToRole="StatusesRequestsWriteOff" />
+  </EntityType>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Employees" Relationship="Self.FK__Employees__roleI__3C69FB99" FromRole="Roles" ToRole="Employees" />
+  </EntityType>
+  <EntityType Name="StatusesRequestsMarking">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="RequestsMarking" Relationship="Self.FK__RequestsM__statu__5070F446" FromRole="StatusesRequestsMarking" ToRole="RequestsMarking" />
+  </EntityType>
+  <EntityType Name="StatusesRequestsWriteOff">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="RequestsWriteOff" Relationship="Self.FK__RequestsW__statu__5629CD9C" FromRole="StatusesRequestsWriteOff" ToRole="RequestsWriteOff" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK__Products__catego__46E78A0C">
+    <End Role="Categories" Type="Self.Categories" Multiplicity="0..1" />
+    <End Role="Products" Type="Self.Products" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="categoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Categories_Departments">
+    <End Role="Departments" Type="Self.Departments" Multiplicity="0..1" />
+    <End Role="Categories" Type="Self.Categories" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departments">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Categories">
+        <PropertyRef Name="departmentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Departments_Hypermarkets">
+    <End Role="Hypermarkets" Type="Self.Hypermarkets" Multiplicity="0..1" />
+    <End Role="DepartmentAccounts" Type="Self.DepartmentAccounts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Hypermarkets">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="DepartmentAccounts">
+        <PropertyRef Name="hypermarketId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Employees__hyper__3B75D760">
+    <End Role="Hypermarkets" Type="Self.Hypermarkets" Multiplicity="0..1" />
+    <End Role="Employees" Type="Self.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Hypermarkets">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Employees">
+        <PropertyRef Name="hypermarketId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Employees__roleI__3C69FB99">
+    <End Role="Roles" Type="Self.Roles" Multiplicity="0..1" />
+    <End Role="Employees" Type="Self.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Employees">
+        <PropertyRef Name="roleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RequestsM__creat__4F7CD00D">
+    <End Role="Employees" Type="Self.Employees" Multiplicity="0..1" />
+    <End Role="RequestsMarking" Type="Self.RequestsMarking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RequestsMarking">
+        <PropertyRef Name="creatorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RequestsW__creat__5535A963">
+    <End Role="Employees" Type="Self.Employees" Multiplicity="0..1" />
+    <End Role="RequestsWriteOff" Type="Self.RequestsWriteOff" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RequestsWriteOff">
+        <PropertyRef Name="creatorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RequestsW__store__571DF1D5">
+    <End Role="Employees" Type="Self.Employees" Multiplicity="0..1" />
+    <End Role="RequestsWriteOff" Type="Self.RequestsWriteOff" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RequestsWriteOff">
+        <PropertyRef Name="storekeeperId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RemaindPr__hyper__4AB81AF0">
+    <End Role="Hypermarkets" Type="Self.Hypermarkets" Multiplicity="0..1" />
+    <End Role="RemaindProducts" Type="Self.RemaindProducts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Hypermarkets">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RemaindProducts">
+        <PropertyRef Name="hypermarketId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RemaindPr__produ__49C3F6B7">
+    <End Role="Products" Type="Self.Products" Multiplicity="0..1" />
+    <End Role="RemaindProducts" Type="Self.RemaindProducts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RemaindProducts">
+        <PropertyRef Name="productId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RequestsM__produ__4D94879B">
+    <End Role="Products" Type="Self.Products" Multiplicity="0..1" />
+    <End Role="RequestsMarking" Type="Self.RequestsMarking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RequestsMarking">
+        <PropertyRef Name="productId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RequestsW__produ__534D60F1">
+    <End Role="Products" Type="Self.Products" Multiplicity="0..1" />
+    <End Role="RequestsWriteOff" Type="Self.RequestsWriteOff" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RequestsWriteOff">
+        <PropertyRef Name="productId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RequestsM__reaso__4E88ABD4">
+    <End Role="ReasonsRequests" Type="Self.ReasonsRequests" Multiplicity="0..1" />
+    <End Role="RequestsMarking" Type="Self.RequestsMarking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ReasonsRequests">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RequestsMarking">
+        <PropertyRef Name="reasonId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RequestsM__statu__5070F446">
+    <End Role="StatusesRequestsMarking" Type="Self.StatusesRequestsMarking" Multiplicity="0..1" />
+    <End Role="RequestsMarking" Type="Self.RequestsMarking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StatusesRequestsMarking">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RequestsMarking">
+        <PropertyRef Name="statusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RequestsW__statu__5629CD9C">
+    <End Role="StatusesRequestsWriteOff" Type="Self.StatusesRequestsWriteOff" Multiplicity="0..1" />
+    <End Role="RequestsWriteOff" Type="Self.RequestsWriteOff" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StatusesRequestsWriteOff">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RequestsWriteOff">
+        <PropertyRef Name="statusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="sadovDiplomaDOMEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Categories" EntityType="Self.Categories" />
+    <EntitySet Name="DepartmentAccounts" EntityType="Self.DepartmentAccounts" />
+    <EntitySet Name="Departments" EntityType="Self.Departments" />
+    <EntitySet Name="Employees" EntityType="Self.Employees" />
+    <EntitySet Name="Hypermarkets" EntityType="Self.Hypermarkets" />
+    <EntitySet Name="Products" EntityType="Self.Products" />
+    <EntitySet Name="ReasonsRequests" EntityType="Self.ReasonsRequests" />
+    <EntitySet Name="RemaindProducts" EntityType="Self.RemaindProducts" />
+    <EntitySet Name="RequestsMarking" EntityType="Self.RequestsMarking" />
+    <EntitySet Name="RequestsWriteOff" EntityType="Self.RequestsWriteOff" />
+    <EntitySet Name="Roles" EntityType="Self.Roles" />
+    <EntitySet Name="StatusesRequestsMarking" EntityType="Self.StatusesRequestsMarking" />
+    <EntitySet Name="StatusesRequestsWriteOff" EntityType="Self.StatusesRequestsWriteOff" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <AssociationSet Name="FK__Products__catego__46E78A0C" Association="Self.FK__Products__catego__46E78A0C">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Categories_Departments" Association="Self.FK_Categories_Departments">
+      <End Role="Departments" EntitySet="Departments" />
+      <End Role="Categories" EntitySet="Categories" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Departments_Hypermarkets" Association="Self.FK_Departments_Hypermarkets">
+      <End Role="Hypermarkets" EntitySet="Hypermarkets" />
+      <End Role="DepartmentAccounts" EntitySet="DepartmentAccounts" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Employees__hyper__3B75D760" Association="Self.FK__Employees__hyper__3B75D760">
+      <End Role="Hypermarkets" EntitySet="Hypermarkets" />
+      <End Role="Employees" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Employees__roleI__3C69FB99" Association="Self.FK__Employees__roleI__3C69FB99">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="Employees" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RequestsM__creat__4F7CD00D" Association="Self.FK__RequestsM__creat__4F7CD00D">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="RequestsMarking" EntitySet="RequestsMarking" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RequestsW__creat__5535A963" Association="Self.FK__RequestsW__creat__5535A963">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="RequestsWriteOff" EntitySet="RequestsWriteOff" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RequestsW__store__571DF1D5" Association="Self.FK__RequestsW__store__571DF1D5">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="RequestsWriteOff" EntitySet="RequestsWriteOff" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RemaindPr__hyper__4AB81AF0" Association="Self.FK__RemaindPr__hyper__4AB81AF0">
+      <End Role="Hypermarkets" EntitySet="Hypermarkets" />
+      <End Role="RemaindProducts" EntitySet="RemaindProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RemaindPr__produ__49C3F6B7" Association="Self.FK__RemaindPr__produ__49C3F6B7">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="RemaindProducts" EntitySet="RemaindProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RequestsM__produ__4D94879B" Association="Self.FK__RequestsM__produ__4D94879B">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="RequestsMarking" EntitySet="RequestsMarking" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RequestsW__produ__534D60F1" Association="Self.FK__RequestsW__produ__534D60F1">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="RequestsWriteOff" EntitySet="RequestsWriteOff" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RequestsM__reaso__4E88ABD4" Association="Self.FK__RequestsM__reaso__4E88ABD4">
+      <End Role="ReasonsRequests" EntitySet="ReasonsRequests" />
+      <End Role="RequestsMarking" EntitySet="RequestsMarking" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RequestsM__statu__5070F446" Association="Self.FK__RequestsM__statu__5070F446">
+      <End Role="StatusesRequestsMarking" EntitySet="StatusesRequestsMarking" />
+      <End Role="RequestsMarking" EntitySet="RequestsMarking" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RequestsW__statu__5629CD9C" Association="Self.FK__RequestsW__statu__5629CD9C">
+      <End Role="StatusesRequestsWriteOff" EntitySet="StatusesRequestsWriteOff" />
+      <End Role="RequestsWriteOff" EntitySet="RequestsWriteOff" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
